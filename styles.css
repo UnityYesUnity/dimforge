@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: red;
+    font-family: 'CoolFont', Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: red;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+#demo-container {
+    background-color: black;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#demo-canvas {
+    border: 1px solid red;
+}
